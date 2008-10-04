@@ -13,7 +13,7 @@ $(function() {
 	$('input#keyword-delimit').keyup(function () {
 		// setup target and regular expression for search term
 		var target = $('.delimit li');
-		var search_term = new RegExp(this.value.replace(/\\/g, ''), "i");
+		var search_term = new RegExp(this.value.replace(/\\/g, ''), "ig");
 		// hide all delimitable elements
 		target.hide();
 		// show elements which contain search term
