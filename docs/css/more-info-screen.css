@@ -1,0 +1,23 @@
+body {
+	color: #461319;
+	padding: 0px;
+	font-size: 62.5%;
+	margin: 0;
+	color: #461319;
+	font-family: "courier new", courier, "Andale Mono";
+}
+
+body img {
+	width: 100%;
+	margin: 0;
+}
+
+body a {
+	background-color: #f69b8c;
+	color: #461319;
+	font-size: 1.2em;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	padding: 2px 5px 5px 5px;
+}

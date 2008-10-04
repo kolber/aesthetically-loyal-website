@@ -1,0 +1,106 @@
+a.back-to-home span {
+	display: none;
+	position: absolute;
+	background-color: #F2BFCE;
+	padding: 0px 3px 2px 3px;
+	color: #F69B8C;
+	text-decoration: underline;
+	font-size: 1em;
+	margin: 35px 45px;
+}
+
+a.back-to-home:hover span {
+	display: block;
+	cursor: hand;
+}
+
+div#project {
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+	left: -30px;
+	padding: 0px 0px 30px 30px;
+	clear: both;
+}
+
+div#project a:hover, div#project a:visited:hover {
+	background-color: #fde6e2;
+}
+
+div#project a:visited {
+	background: url(/images/linethrough_white.png) repeat-x center left;
+}
+
+* html div#project {
+	height : 1%;
+}
+
+div#project span, div#project h4 {
+	color: #f69b8c;
+}
+
+div#project h3 {
+	border-top: 0;
+}
+
+div#project span.count {
+	color: #461319;
+}
+
+div#project p.subheader {
+	padding: 0 0 10px;
+	border-bottom: 1px solid #f3adad;
+	width: 624px;
+}
+
+div#project a[rel="external"] {
+	background-color: #feeae6;
+}
+
+div#project .wide {
+	padding: 0 0 25px;
+	border-bottom: 1px solid #f3adad;
+	width: 550px;
+}
+
+div#project .extrawide {
+	padding: 10px 0 0;
+	margin: 10px 0px;
+	width: 850px;
+	clear: both;
+	border-top: 1px solid #f3adad;
+}
+
+div#project .extrawide #next_project,
+div#project .extrawide #previous_project {
+	display: block;
+	width: 300px;
+}
+
+div#project .extrawide #next_project {
+	float: right;
+	text-align: right;
+}
+div#project .extrawide #previous_project {
+	float: left;
+	text-align: left;
+}
+
+div#project .extrawide #next_project span,
+div#project .extrawide #previous_project span {
+	display: block;
+}
+
+div#project .wide em {
+	text-transform: uppercase;
+}
+
+div#project .image {
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+div#project .image img {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,89 @@
+/*
+
+	Updates colours to match to white background
+
+*/
+
+body {
+	background-color: #fff;
+	font-family: "courier new", courier, "Andale Mono", monospace;
+}
+
+h1 {
+	color: #f8ab9e;
+}
+
+h3 {
+	border-top: 1px solid #fbd5ce;
+}
+
+h4 {
+	color: #f8ab9e;
+}
+
+input {
+	background-color: #f8ab9e;
+}
+
+a.back-to-home span {
+	display: none;
+	position: absolute;
+	background-color: #f8ab9e;
+	padding: 0px 3px 2px 3px;
+	color: #fff;
+	text-decoration: underline;
+	font-size: 1em;
+	margin: 35px 45px;
+}
+
+a.back-to-home:hover span {
+	display: block;
+	cursor: hand;
+}
+
+p.site-description {
+	border-top: 1px solid #fbd5ce;
+}
+
+div#pullout-information {
+	background-color: #F9E900;
+}
+
+p.subheader span {
+	color: #f8ab9e;
+}
+.column ul li p {
+	color: #f8ab9e;
+}
+
+a[rel="external"] {
+	background-color: #feeae6;
+}
+
+.delimit li p span.project-keywords em {
+	color: #f8ab9e;
+}
+
+#footer {
+	color: #f8ab9e;
+	border-top: 1px solid #fbd5ce;
+}
+
+/* internal */
+
+p.subheader {
+	padding: 0 0 25px;
+	border-bottom: 1px solid #fbd5ce;
+	width: 624px;
+}
+
+.wide {
+	width: 550px;
+}
+
+span.comment-count {
+	font-size: 1.2em;
+	position: absolute;
+	margin-left: -2.2em;
+	color: #f8ab9e;
+}

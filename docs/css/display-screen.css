@@ -1,0 +1,188 @@
+body {
+	background-color: #f69b8c;
+	color: #461319;
+	padding: 20px 0px 20px 20px;
+	font-family: "courier new", courier, "Andale Mono";
+	text-align: center;
+	font-size: 62.5%;
+}
+
+p, a, input, span {
+	font-family: "courier new", courier, "Andale Mono";
+	font-size: 1.2em;
+	line-height: 1.7em;
+	margin: 0;
+	padding: 0;
+}
+
+a img {
+	border: 0;
+}
+
+a {
+	color: #461319;
+}
+
+a:hover, a:visited:hover {
+	background-color: #f4a49d;
+}
+
+a:visited {
+	background: url(/images/linethrough_pink.png) repeat-x center left;
+}
+
+p a {
+	font-size: 1em;
+}
+
+p span {
+	font-size: 1em;
+}
+
+p input {
+	font-size: 1em;
+}
+
+div#container {
+	width: 960px;
+	margin: 0 auto;
+	overflow: visible;
+	text-align: left;
+}
+
+h1 {
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2;
+	font-size: 3.8em;
+	color: #f2bfce;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2;
+	font-size: 8.6em;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+h3 {
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2;
+	font-size: 4.1em;
+	margin: 0;
+	padding: 25px 0 0;
+	border-top: 1px solid #f3adad;
+	width: 624px;
+	clear: both;
+}
+
+h4 {
+	font-weight: normal;
+	color: #f2bfce;
+	font-size: 1.2em;
+	margin: 4px 0 2px 0;
+	padding: 0;
+	width: 256px;
+}
+
+input {
+	padding: 1px 1px 1px 3px;
+	margin: 0;
+	background-color: #f2bfce;
+	color: #461319;
+	border: 0;
+	width: 150px;
+}
+
+span.date {
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 0.13em;
+	margin: 0px;
+	padding: 0px 3px;
+	font-style: italic;
+	position: relative;
+	top: -3.8em;
+}
+
+span.date a {
+	font-size: 1em;
+	background-image: none;
+}
+
+
+span.count {
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 0.27em;
+	margin: 0px;
+	padding: 0px 3px;
+	font-style: italic;
+	position: relative;
+	top: -1.5em;
+}
+
+p.site-description {
+	margin: 0;
+	padding: 20px 0;
+	border-top: 1px solid #f3adad;
+	width: 624px;
+	clear: both;
+}
+
+div#pullout-information {
+	float: right;
+	margin: -80px 224px 0px 40px;
+}
+
+p.subheader span {
+	color: #f2bfce;
+}
+
+.column {
+	width: 256px;
+	margin: 30px 40px 30px 0px;
+	float: left;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.column a {
+	color: #461319;
+}
+
+.column ul li p {
+	color: #f2bfce;
+}
+
+a[rel="external"] {
+	background-color: #f5a399;
+}
+
+.delimit li p span.project-keywords em {
+	background-color: #F9E900;
+	color: #F69B8C;
+	font-style: normal;
+}
+
+#footer {
+	clear: both;
+	padding: 25px 0 0;
+	border-top: 1px solid #f3adad;
+	width: 624px;
+	color: #f2bfce;
+}
