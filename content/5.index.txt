@@ -1,0 +1,9 @@
+page_title: Name's Graphic Design Portfolio
+
+page_description: A collection of Name's graphic design work
+
+information: 
+Anthony is a graphic designer from Melbourne, Australia. He graduated from Swinburne University in 2006 with a Bachelor of Design – Honours. This was where he first discovered the writings of Bob Gill, Alan Fletcher and the work of the conceptual artists such as Joseph Kosuth and Hans Haacke. Their ideologies had a considerable effect on his approach to graphic design. He now works professionally as a senior designer.
+
+about_the_work:
+The common link between the works shown on this site is a subversion of the traditional graphic design process. The prescribed method of taking a series of design concepts, incrementally improving and delimiting from that selection is reversed in favour of a process based in impulsivity. This process outcome is primarily due to having to conceptualise and complete projects in extremely short timeframes, but nonetheless poses an workable alternative to the 'traditional' design process model.
