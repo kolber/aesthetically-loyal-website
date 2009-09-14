@@ -1,0 +1,16 @@
+project_title: Bounce Poster #4
+
+project_date: Nov/07
+
+project_keywords: print, poster, photography, opulent, party, flyer, promotion, miniatures, diorama
+
+final_output: A3 poster
+
+client: Opulent
+
+project_information: 
+The fourth Bounce poster represented a major geographical and conceptual shift as the night was moving away from its original home at Third Class. To celebrate the occasion we created a miniature (1/250 scale) diorama based around the venue and its iconic na&iuml;ve neon graffitied walls. The packed bags represented not only Bounce's departure, but also the propositional end of Third Class as one of Melbourne's premier club night venues.
+
+related_projects:
+- <a href="/projects/bounce-poster-1/">Bounce Poster #1</a>
+- <a href="/projects/bounce-poster-2/">Bounce Poster #2</a>

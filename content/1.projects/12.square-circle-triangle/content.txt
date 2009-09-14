@@ -1,0 +1,15 @@
+project_title: Square, Circle, Triangle
+
+project_date: Jan/05
+
+project_keywords: blockprint, print, square circle triangle, evolution
+
+final_output: Framed A4 blockprint
+
+client: Personal
+
+project_information: 
+This piece was a woodblock print created for the Square Circle Triangle directors after completing a year of industry placement. The theme worked with was that of 'evolution' (symbolising personal growth), for me the most logical visual extension of this theme was the darwinian evolution of the logo itself (the square, circle and triangle pictogram), where the shapes have grown to the point of bipedal locomotion.
+
+related_projects:
+- <a href="http://www.sct.com.au" rel="external">http://www.sct.com.au</a>

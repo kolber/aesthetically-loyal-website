@@ -1,0 +1,17 @@
+project_title: Robbin it Steady Mixtape
+
+project_date: Apr/06
+
+project_keywords: print, cd, illustration, promotion, opulent, favela rock, young steezy
+
+final_output: CD booklet
+
+client: DJ Young Steezy
+
+project_information: 
+The mixtape was a giveaway for one of the earlier Favela Rock parties. The title <em>Robbin it Steady</em>, was a reference to one of the many pseudonyms of DJ Young Steezy of the Deuce Crew. The CD was laser-printed, hand-scored and cut in a run of around 50.
+The illustration was a thematic reference to the chain-stealing culture within hip hop; a reflection upon the content of the mixtape.
+
+related_projects:
+- <a href="http://www.myspace.com/favelarock" rel="external">http://www.myspace.com/favelarock</a>
+- <a href="http://www.opulentmagazine.com" rel="external">http://www.opulentmagazine.com</a>

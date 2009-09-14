@@ -1,0 +1,15 @@
+project_title: Reflections Poster
+
+project_date: Jun/07
+
+project_keywords: print, poster, photography, trompe l'oeil, design criticism
+
+final_output: A2 poster
+
+client: Personal
+
+project_information: 
+This poster was developed as a personal project exploring the nature of design excess and its implicit irony. The image exemplifies the snowball effect which occurs in stylistic trends within the design community. The photograph of the figure holding their poster has been adopted, realised and exhausted until it is void of all meaning and originality.
+This poster functions more as a commentary than a critique. Its focus is aimed ideologically at the prototypal nature of the image within our contemporary visual culture, yet it removes itself from making any direct critical comment on it.
+
+related_projects: 

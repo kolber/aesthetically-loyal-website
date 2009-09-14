@@ -1,0 +1,18 @@
+project_title: As You Cannot Hear The&nbsp;Sound of Losing First Draft
+
+project_date: Jul/07
+
+project_keywords: print, poster, promotion, performance, theatre, casino, gambling
+
+final_output: A4 poster
+
+client: Jade Butler
+
+project_information: 
+The first draft of the <em>As You Cannot Hear The Sound of Losing</em> performance was conceptually focused on the gambler as subject and the construction of gambling environments, growing from this the inspiration for the flyer came from the visual and typographic styling of the craps table. There is a certain graphic allure to the craps table for me, specifically its emphasis on typography and the abstracted divisional grid.
+This was a low budget production process with the entire print run coming from photocopiers and being distributed and posted by hand. The production process was an interesting reflection of the draft-like form of the performance it was used to promote.
+
+related_projects:
+- <a href="/projects/as-you-cannot-hear-the-sound-of-losing/">As You Cannot Hear The Sound of Losing</a>
+- <a href="/projects/you-the-source-of-unhappiness/">You The Source of Unhappiness, Cicadas Being The Sound of Calm</a>
+- <a href="/projects/the-weight-of-broken-men/">The Weight of Broken Men</a>

@@ -1,0 +1,16 @@
+project_title: Cellophane Typeface
+
+project_date: Oct/05
+
+project_keywords: swinburne, typeface, vinylcut, graffiti, unreleased, typography, experiment
+
+final_output: Unreleased typeface
+
+client: Swinburne/Personal
+
+project_information: 
+<em>Cellophane</em> was a typographic project developed while at Swinburne University. It was something I had always been interested in exploring due to the complete lack of well executed 'graffiti-style' typefaces and some of the progressions within the Opentype format meant that elements of the spontaneity and adaptability of the analogue graffiti-lettering form were able to be effectively expressed digitally.
+The project was named for graffiti's mixture of transparency and visibility within our society, blatant, yet generally socially transparent. The project was interesting from a typographic perspective; the idea of trying to create a typeface which actually worked against the rules of legibility had an personally unnatural edge to it. The letterforms had to be pushed to the brink of their recognisability, which is traditionally how graffiti handstyles create their unique and notoriously undecipherable forms. It created an interesting paradox of what defined a successful outcome to the project.
+
+related_projects:
+- <a href="/projects/kellermeister-typeface/">Kellermeister Typeface</a>

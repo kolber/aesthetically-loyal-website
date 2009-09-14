@@ -1,0 +1,17 @@
+project_title: Bounce Poster #2
+
+project_date: Aug/07
+
+project_keywords: print, poster, photography, opulent, party, flyer, promotion, bouncy balls, constructed typography
+
+final_output: A3 poster
+
+client: Opulent
+
+project_information: 
+The second Bounce poster grew out of a simple idea; realising the logotype using a composition of floating bouncy balls. We shot it using an abacus style grid to build each letter individually, with the imperfections of our framing grid created an interesting effect of misalignment.
+Its physically-oriented, conceptual approach gave it a strong contrast to the other club flyers circulating Melbourne at the time.
+
+related_projects:
+- <a href="/projects/bounce-poster-1/">Bounce Poster #1</a>
+- <a href="/projects/bounce-poster-4/">Bounce Poster #4</a>

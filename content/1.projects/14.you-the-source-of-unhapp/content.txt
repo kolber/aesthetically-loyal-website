@@ -1,0 +1,19 @@
+project_title: You&ensp;The Source of&nbsp;Unhappiness - Cicadas Being The&nbsp;Sound&nbsp;of&nbsp;Calm
+
+project_date: Nov/05
+
+project_keywords: print, promotion, program, photography, found objects, performance, theatre, trompe l'oeil, william morris
+
+final_output: A3 poster/Program
+
+client: Jade Butler
+
+project_information: 
+This project was created for the promotion of a graduating Bachelor of Arts – Honours performance. As the performance project was solely self-developed, written, directed and performed, the visual ideas explored were that of the presence of the 'hand of the artist' at work.
+The original pattern forming the basis of the identity was taken from the work of William Morris, whose concern was with the implications of the industrial revolution (and mass production) on the craftsmanship of the artist. This appeared to be a consistent, underlying theme to the work and was put forward as the basis of the identity.
+The pattern was taken and distorted for our purposes with the cicadas from the performance's title taking part in the deconstruction of the pattern. The treatment gave a sinister edge to the original pattern and formed a kind of destructive two-level trompe l'oeil.
+
+related_projects:
+- <a href="/projects/as-you-cannot-hear-the-sound-of-losing/">As You Cannot Hear The Sound of Losing</a></li>
+- <a href="/projects/as-you-cannot-hear-the-sound-of-losing-first-draft/">As You Cannot Hear The Sound of Losing First Draft</a>
+- <a href="/projects/the-weight-of-broken-men/">The Weight of Broken Men</a>
