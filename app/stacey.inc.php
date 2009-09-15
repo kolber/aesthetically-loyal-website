@@ -22,13 +22,13 @@ class Renderer {
 	}
 	
 	function handle_redirects() {
+		// if page does not end in a trailing slash, add one
 		if(preg_match("/index\/?$/", $_SERVER["REQUEST_URI"])) {
 			header("HTTP/1.1 301 Moved Permanently");
 			header('Location: ../');
 			return true;
 		}
 		
-		// if page does not end in a trailing slash, add one
 		if(!preg_match("/\/$/", $_SERVER["REQUEST_URI"])) {
 			header("HTTP/1.1 301 Moved Permanently");
 			header('Location:'.$_SERVER["REQUEST_URI"]."/");
@@ -47,6 +47,7 @@ class Renderer {
 	
 	function render() {
 		if($this->handle_redirects()) return;
+		
 		if(!$this->page->content_file || !$this->page->template_file) {
 			if($this->page->public_file) echo file_get_contents($this->page->public_file);
 			else $this->render_404();
@@ -358,6 +359,8 @@ class ContentParser {
 			'/\\\x02/',
 			# automatically link http:// websites
 			'/(?<!")http&#58;\/\/([\S]+\.[\S]*\.?[A-Za-z0-9]{2,4})/',
+			# automatically link email addresses
+			'/(?<![;>])\b([A-Za-z0-9.-]+)@([A-Za-z0-9.-]+\.[A-Za-z]{2,4})/',
 			# convert lists
 			'/\n?-(.+?)(?=\n)/',
 			'/(<li>.*<\/li>)/',
@@ -365,8 +368,6 @@ class ContentParser {
 			'/([^\n]+?)(?=\n)/',
 			'/<p>(.+):(.+)<\/p>/',
 			'/: (.+)(?=\n<p>)/',
-			# automatically link email addresses
-			'/([A-Za-z0-9.-]+)@([A-Za-z0-9.-]+\.[A-Za-z]{2,4})/',
 		);
 		$replacements = array(
 			# replace inline colons
@@ -379,6 +380,8 @@ class ContentParser {
 			'-',
 			# automatically link http:// websites
 			'<a href="http&#58;//$1">http&#58;//$1</a>',
+			# automatically link email addresses
+			'<a href="mailto&#58;$1&#64;$2">$1&#64;$2</a>',
 			# convert lists
 			'<li>$1</li>',
 			'<ul>$1</ul>',
@@ -386,8 +389,6 @@ class ContentParser {
 			'<p>$1</p>',
 			'$1:$2',
 			':<p>$1</p>',
-			# automatically link email addresses
-			'<a href="mailto&#58;$1&#64;$2">$1&#64;$2</a>',
 		);
 		$parsed_text = preg_replace($patterns, $replacements, $text);
 		return $parsed_text;
@@ -436,7 +437,7 @@ class TemplateParser {
 	var $replacements;
 	
 	function create_replacement_partials() {
-		$p = new aeProjectsPartial;
+		$p = new ProjectsPartial;
 		$i = new ImagesPartial;
 		$n = new NavigationPartial;
 		$partials[] = $p->render($this->page);
@@ -508,7 +509,7 @@ class NavigationPartial extends Partial {
 		
 		asort($files, SORT_NUMERIC);
 		$html .= $wrappers[0];
-		#$p = new aeProjectsPartial;
+		#$p = new ProjectsPartial;
 		foreach($files as $key => $file) {
 			$html .= preg_replace(array_keys($file_vars[$key]), array_values($file_vars[$key]), $wrappers[1]);
 			#if(preg_match('/projects$/', $file)) $html .= $p->render($this->page);
@@ -553,45 +554,6 @@ class ImagesPartial extends Partial {
 		return $html;
 	}
 
-}
-
-class aeProjectsPartial extends ProjectsPartial {
-	
-	function render($page) {
-		$this->page = $page;
-		$this->dir = "../content/".$page->projects_folder_unclean;
-		$wrappers = $this->parse($this->partial_file);
-		
-		$html = array('<div class="column delimit"><h4>Column 1</h4>', '<div class="column delimit"><h4>Column 2</h4>', '<div class="column delimit"><h4>Column 3</h4>');
-		
-		if(is_dir($this->dir)) {
-		 	if($dh = opendir($this->dir)) {
-		 		while (($file = readdir($dh)) !== false) {
-		 			if(!is_dir($file) && file_exists($this->dir."/".$file."/content.txt")) {
-						$files[] = $file;
-						$vars = array(
-							"/@url/" => $this->page->link_path."projects/".preg_replace('/^\d+?\./', '', $file)."/",
-							"/@thumb/" => $this->check_thumb($this->dir, $file)
-						);
-						$c = new ContentParser;
-						$project_page = new MockProject($file);
-						$file_vars[] = array_merge($vars, $c->parse($project_page));
-					}
-				}
-			}
-			closedir($dh);
-			asort($files, SORT_NUMERIC);
-			foreach($html as $key => $html_item) $html[$key] = $html_item .= $wrappers[0];
-			$i = 0;
-			foreach($files as $key => $file) {
-				$html[($i % 3)] .= preg_replace(array_keys($file_vars[$key]), array_values($file_vars[$key]), $wrappers[1]);
-				$i++;
-			}
-			foreach($html as $key => $html_item) $html[$key] = $html_item .= $wrappers[2]."</div>";
-		}
-		
-		return "${html[0]} ${html[1]} ${html[2]}";
-	}
 }
 
 class ProjectsPartial extends Partial {
