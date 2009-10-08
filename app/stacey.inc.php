@@ -611,7 +611,7 @@ Class TemplateParser {
 	
 	function create_replacement_partials() {
 		// constructs a partial for each category within the content folder
-		$c = new CategoryListPartial;
+		$c = new aeCategoryListPartial;
 		// constructs a partial containing each image on the page
 		$i = new ImagesPartial;
 		// constructs a partial containing all of the top level pages & categories, excluding the index
@@ -732,6 +732,59 @@ Class CategoryListPartial extends Partial {
 		}
 		
 		return $html;
+	}
+	
+}
+
+Class aeCategoryListPartial extends Partial {
+
+	function render($page, $dir, $partial_file) {
+		// store reference to current page
+		$this->page = $page;
+		// store correct partial file
+		$this->partial_file = $partial_file;
+		$this->dir = '../content/'.$dir;
+		// pull out html wrappers from partial file
+		$wrappers = $this->parse($this->partial_file);
+		$html = array('<div class="column delimit"><h4>Column 1</h4>', '<div class="column delimit"><h4>Column 2</h4>', '<div class="column delimit"><h4>Column 3</h4>');
+		
+		// for each page within this category...
+		$files = array();
+		if(is_dir($this->dir)) {
+		 	if($dh = opendir($this->dir)) {
+		 		while (($file = readdir($dh)) !== false) {
+					if(is_dir($this->dir.'/'.$file) && !preg_match('/^\./', $file)) {
+						// store filename
+						$files[] = $file;
+						// store url and thumb
+						$vars = array(
+							'/@url/' => $this->page->link_path.preg_replace('/^\d+?\./', '', $dir).'/'.preg_replace('/^\d+?\./', '', $file).'/',
+							'/@thumb/' => $this->check_thumb($this->dir, $file)
+						);
+						// create a MockPageInCategory to give us access to all the variables inside this PageInCategory
+						$c = new ContentParser;
+						$category_page = new MockPageInCategory($dir, $file);
+						$file_vars[] = array_merge($vars, $c->parse($category_page));
+					}
+				}
+				closedir($dh);
+			}
+
+			// sort files in reverse-numeric order
+			arsort($files, SORT_NUMERIC);
+			
+			// do custom ae 3column stuff
+			foreach($html as $key => $html_item) $html[$key] = $html_item .= $wrappers[0];
+			$i = 0;
+			foreach($files as $key => $file) {
+				$html[($i % 3)] .= preg_replace(array_keys($file_vars[$key]), array_values($file_vars[$key]), $wrappers[1]);
+				$i++;
+			}
+			foreach($html as $key => $html_item) $html[$key] = $html_item .= $wrappers[2]."</div>";
+
+		}
+		
+		return "${html[0]} ${html[1]} ${html[2]}";
 	}
 	
 }
