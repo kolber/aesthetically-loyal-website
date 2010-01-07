@@ -1,16 +1,19 @@
 project_title: Kellermeister Typeface
-
+-
 project_date: Jul/04
-
+-
 project_keywords: swinburne, typeface, modular, display face, unreleased, typography, experiment
-
+-
 final_output: Unreleased typeface
-
+-
 client: Swinburne/Personal
-
+-
 project_information: 
 The Kellermeister typeface was one of my first real forays into systematic, exploratory typography. The idea involved creating a modal 'alphabet' of limited shapes and connectors, then from that geometrically constructing a typeface. Its intention was also to push each letterform to as pure an aesthetic as possible without losing its legible differentiation and maintaining its function within a working alphabet.
-The name is a reference to J.R.R Tolkien's writings on phonoaesthetics and cellar doors in <em>The Monsters and the Critics</em>, which seemed appropriate for a typeface exploring the pure aesthetics of its own construction from a pre-defined set of geometric 'phonemes'.
+
+The name is a reference to J.R.R Tolkien's writings on phonoaesthetics and cellar doors in _The Monsters and the Critics_, which seemed appropriate for a typeface exploring the pure aesthetics of its own construction from a pre-defined set of geometric 'phonemes'.
+
+-
 
 related_projects:
-- <a href="/projects/cellophane-typeface/">Cellophane Typeface</a>
+- [Cellophane Typeface](/projects/cellophane-typeface/)

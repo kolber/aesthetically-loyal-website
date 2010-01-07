@@ -1,15 +1,16 @@
 project_title: Hype Posters
-
+-
 project_date: Oct/05
-
+-
 project_keywords: poster, swinburne, promotion, fluorescent, neon, 3d, photography
-
+-
 final_output: A1 Posters
-
+-
 client: Swinburne/Personal
-
+-
 project_information: 
-These posters were created as an internal promotional campaign for <em>Hype</em>; a student-run website and forum for idea sharing within Swinburne's design school. The project was inherited from the previous year who had devised the name and concept, which was further developed by our year level. The identity was a droll reflection on the function of graphic design in contemporary society; its role to create a visual form of amplifying promotion for its chosen product.
-The posters and extended identity (my contribution to the project) took the physical aspect of the logo (the neon sign) and positioned it within unexpected spaces. The contrast between object and place exemplified the tenuous position that public design plays between nature and culture, pushing the boundaries of where graphic design can and cannot acceptably exist.
+These posters were created as an internal promotional campaign for _Hype_; a student-run website and forum for idea sharing within Swinburne's design school. The project was inherited from the previous year who had devised the name and concept, which was further developed by our year level. The identity was a droll reflection on the function of graphic design in contemporary society; its role to create a visual form of amplifying promotion for its chosen product.
 
-related_projects: 
+The posters and extended identity (my contribution to the project) took the physical aspect of the logo (the neon sign) and positioned it within unexpected spaces. The contrast between object and place exemplified the tenuous position that public design plays between nature and culture, pushing the boundaries of where graphic design can and cannot acceptably exist.
+-
+related_projects:

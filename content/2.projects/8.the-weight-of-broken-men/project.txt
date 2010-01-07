@@ -1,17 +1,18 @@
 project_title: The Weight of&nbsp;Broken&nbsp;Men
-
+-
 project_date: Dec/05
-
+-
 project_keywords: print, book, handbound, illustration, typography, collaboration, performance, theatre
-
+-
 final_output: Handbound Book
-
+-
 client: Swinburne/Personal
-
+-
 project_information: 
-<em>The Weight of Broken Men</em> was a book of collected writings from a Melbourne-based performance practitioner. Each piece of text was taken individually and further developed alongside its accompanying illustrations to progress and challenge its structural form. The process of concurrently developing the image and words recontextualised the writings, changing their original intent as performative text. The illustrations imposed their own visual stories on the pieces, both through their pictorial style and through their deliberate distancing from the text's primary connotations.
+_The Weight of Broken Men_ was a book of collected writings from a Melbourne-based performance practitioner. Each piece of text was taken individually and further developed alongside its accompanying illustrations to progress and challenge its structural form. The process of concurrently developing the image and words recontextualised the writings, changing their original intent as performative text. The illustrations imposed their own visual stories on the pieces, both through their pictorial style and through their deliberate distancing from the text's primary connotations.
 
+-
 related_projects:
-- <a href="/projects/as-you-cannot-hear-the-sound-of-losing/">As You Cannot Hear The Sound of Losing</a>
-- <a href="/projects/as-you-cannot-hear-the-sound-of-losing-first-draft/">As You Cannot Hear The Sound of Losing First Draft</a>
-- <a href="/projects/you-the-source-of-unhappiness/">You The Source of Unhappiness, Cicadas Being The Sound of Calm</a>
+- [As You Cannot Hear The Sound of Losing](/projects/as-you-cannot-hear-the-sound-of-losing/)
+- [As You Cannot Hear The Sound of Losing First Draft](/projects/as-you-cannot-hear-the-sound-of-losing-first-draft/)
+- [You The Source of Unhappiness, Cicadas Being The Sound of Calm](/projects/you-the-source-of-unhappiness/)

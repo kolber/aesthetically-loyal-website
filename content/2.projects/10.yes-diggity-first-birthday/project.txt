@@ -1,17 +1,17 @@
 project_title: Yes Diggity First&nbsp;Birthday
-
+-
 project_date: Oct/07
-
+-
 project_keywords: print, poster, photography, party, promotion, flyer, triangles, one, paperfolding, diamonds
-
+-
 final_output: A3 poster
-
+-
 client: Yes Diggity
-
+-
 project_information: 
 This project formed the poster for Yes Diggity's first birthday party at Miss Libertines. It was a literal progression of the brand into the physical realm. We formed a numeral one using the diamonds from the logo's crown, constructed from folded pieces of cardboard, hand-folded, pasted onto our wall and photographed.
 The accompanying type treatment was an exercise in extending the concept of the monospaced font to a mono-hierarchical structure, forcing only colour and text decoration to highlight the degrees of importance within the information.
-
+-
 related_projects:
-- <a href="/projects/young-steezy-mixtape/">Young Steezy Mixtape</a>
-- http://www.yesdiggity.com
+- [Young Steezy Mixtape](/projects/young-steezy-mixtape/)
+- <http://www.yesdiggity.com>

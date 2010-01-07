@@ -1,15 +1,15 @@
 project_title: Sneaker Freaker Issue&nbsp;2
-
+-
 project_date: May/03
-
+-
 project_keywords: magazine, illustration, sneakers, nike, justin dickens, bus
-
+-
 final_output: Magazine Spread
-
+-
 client: Sneaker Freaker
-
+-
 project_information: 
 This illustration was created for Sneaker Freaker magazine, back when it was still in its infancy, in the space of time proceeding its debut. My obsession with vector illustration was in full force during this period, so the illustration was a blend of existing and newly created work. As the interviewee was speaking about the English sneaker community, it reads as a street-themed collage of London symbology and flying sneaker boxes.
-
+-
 related_projects:
-- http://www.sneakerfreaker.com
+- <http://www.sneakerfreaker.com>

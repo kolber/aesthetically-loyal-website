@@ -1,16 +1,18 @@
 project_title: Freelancing-Gods Blog
-
+-
 project_date: Sep/07
-
+-
 project_keywords: website, blog, illustration, grid, catholic, icon, times new roman
-
+-
 final_output: HTML/CSS
-
+-
 client: Freelancing-Gods
-
+-
 project_information: 
 The Freelancing-Gods blog was designed for a programmer ex-colleague as a space for his thoughts and open-source Ruby projects. The illustration is a portrait of the (far from egotistical) principal author behind the blog. It was an interpretation of classical catholic iconicism, taking the egotism and pseudo-religiousness of the name and twisting it into self-parody.
+
 The idea behind the layout was a translation of traditional print and typographic rules, forcibly applying them to the web. Baseline and horizontal grid structures from editorial and book design were appropriated to add a simulated sense of tradition and weight to the content.
 
+-
 related_projects: 
-- <a href="http://www.freelancing-gods.com">Freelancing Gods</a>
+- [Freelancing Gods](http://www.freelancing-gods.com)

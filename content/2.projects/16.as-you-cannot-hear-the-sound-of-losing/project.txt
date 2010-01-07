@@ -1,18 +1,21 @@
 project_title: As You Cannot Hear The&nbsp;Sound of Losing
-
+-
 project_date: Nov/07
-
+-
 project_keywords: print, poster, promotion, performance, theatre, casino, simulacrum, fake-real
-
+-
 final_output: A3 poster, A5 Flyer
-
+-
 client: Jade Butler
-
+-
 project_information: 
-<em>As You Cannot Hear The Sound of Losing</em> was a performance installation executed within an apartment on the 47th floor of the Eureka Towers. It explored Baudrillard's notion of the <em>hyperreal</em> and how it can be related to the contemporary gaming environment.
-The title and poster alludes to an absence of the signification of <em>losing</em> within these constructed places.
+_As You Cannot Hear The Sound of Losing_ was a performance installation executed within an apartment on the 47th floor of the Eureka Towers. It explored Baudrillard's notion of the _hyperreal_ and how it can be related to the contemporary gaming environment.
+
+The title and poster alludes to an absence of the signification of _losing_ within these constructed places.
+
+-
 
 related_projects:
-- <a href="/projects/as-you-cannot-hear-the-sound-of-losing-first-draft/">As You Cannot Hear The Sound of Losing First Draft</a>
-- <a href="/projects/you-the-source-of-unhappiness/">You The Source of Unhappiness, Cicadas Being The Sound of Calm</a>
-- <a href="/projects/the-weight-of-broken-men/">The Weight of Broken Men</a>
+- [As You Cannot Hear The Sound of Losing First Draft](/projects/as-you-cannot-hear-the-sound-of-losing-first-draft/)
+- [You The Source of Unhappiness, Cicadas Being The Sound of Calm](/projects/you-the-source-of-unhappiness/)
+- [The Weight of Broken Men](/projects/the-weight-of-broken-men/)
