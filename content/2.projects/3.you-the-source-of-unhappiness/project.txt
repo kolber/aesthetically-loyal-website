@@ -1,4 +1,4 @@
-project_title: You&ensp;The Source of&nbsp;Unhappiness - Cicadas Being The&nbsp;Sound&nbsp;of&nbsp;Calm
+project_title: You The Source of Unhappiness - Cicadas Being The Sound of Calm
 -
 project_date: Nov/05
 -
