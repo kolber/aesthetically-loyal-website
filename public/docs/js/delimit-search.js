@@ -5,6 +5,8 @@
 */
 
 $(function() {
+  // set projects count
+  $("h3 span.count").html($('.delimit li').length);
 	// focus input
 	$('input#keyword-delimit')[0].focus()
 	// clear input to counter form content caching
