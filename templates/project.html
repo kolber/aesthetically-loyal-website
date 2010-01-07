@@ -28,19 +28,21 @@
 					<h4>Project Information</h4>
 					@project_information
 					<p>-</p>
-					<h4>Related</h4>
-					@related_projects
+					if @related_projects do
+					  <h4>Related</h4>
+					  @related_projects
+					endif
 				</div>
 				<div class="column wide">
 					<h4>Final Output</h4>
 					<p>@final_output</p>
 				</div>
 				<div class="column image">
-					@Images
+					:images
 				</div>
 				<div class="column extrawide">
-					@Previous_Page
-					@Next_Page
+					:previous-page
+					:next-page
 				</div>
 			</div>
 			<div id="footer"><p>All work &copy; Anthony Kolber.</p></div>
