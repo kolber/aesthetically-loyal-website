@@ -432,7 +432,7 @@ class Markdown_Parser {
 				  <\2			# nested opening tag
 					'.$attr.'	# attributes
 					(?>
-					  />
+					 >
 					|
 					  >', $nested_tags_level).	# end of opening tag
 					  '.*?'.					# last level nested tag content
@@ -486,7 +486,7 @@ class Markdown_Parser {
 						[ ]*				# trailing spaces/tabs
 						(?=\n+|\Z)	# followed by a newline or end of document
 					
-			| # Special case just for <hr />. It was easier to make a special 
+			| # Special case just for <hr>. It was easier to make a special 
 			  # case than to make the other regex more complicated.
 			
 						[ ]{0,'.$less_than_tab.'}

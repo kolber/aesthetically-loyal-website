@@ -1,0 +1,4 @@
+get "/projects"
+foreach $children do
+  :feed_entry
+endforeach
