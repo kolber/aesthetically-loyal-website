@@ -1,3 +1,25 @@
-:column1
-:column2
-:column3
+get "/projects" do
+  <div class="column delimit"><h4>Column 1</h4>
+    <ul>
+    foreach $column1 do
+    	<li><p><a href="@url">@project_title</a> <span class="project-keywords">@project_keywords</span></p></li>
+    endforeach
+    </ul>
+  </div>
+
+  <div class="column delimit"><h4>Column 2</h4>
+    <ul>
+    foreach $column2 do
+    	<li><p><a href="@url">@project_title</a> <span class="project-keywords">@project_keywords</span></p></li>
+    endforeach
+    </ul>
+  </div>
+
+  <div class="column delimit"><h4>Column 3</h4>
+    <ul>
+    foreach $column3 do
+    	<li><p><a href="@url">@project_title</a> <span class="project-keywords">@project_keywords</span></p></li>
+    endforeach
+    </ul>
+  </div>
+end
