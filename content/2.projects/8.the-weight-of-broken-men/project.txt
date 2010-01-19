@@ -1,4 +1,4 @@
-project_title: The Weight of Broken Men
+project_title: The Weight of&nbsp;Broken&nbsp;Men
 -
 project_date: Dec/05
 -

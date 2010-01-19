@@ -1,4 +1,4 @@
-project_title: Yes Diggity First Birthday
+project_title: Yes Diggity First&nbsp;Birthday
 -
 project_date: Oct/07
 -
